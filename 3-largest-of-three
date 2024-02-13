@@ -1,0 +1,12 @@
+public static Integer findLargest(Integer num1, Integer num2, Integer num3) {
+    Integer[] numbers = new Integer[]{num1, num2, num3};
+
+    Integer largest = numbers[0];
+
+    for( Integer  i = 0 ; i < numbers.size() ; i++ ){
+        if(numbers[i] > largest){
+            largest = numbers[i];
+        }
+    }
+ return largest;
+}
