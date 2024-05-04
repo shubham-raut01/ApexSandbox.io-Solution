@@ -9,6 +9,6 @@ else if(String.IsBlank(firstName) && !String.IsBlank(lastName)){
     return lastName +', '+ firstName;
 }
 else{
-    return " ";
+    return '';
 }
 }
