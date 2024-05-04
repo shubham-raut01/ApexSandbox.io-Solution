@@ -3,10 +3,10 @@ if(!String.IsBlank(firstName) && !String.IsBlank(lastName)){
     return lastName +', '+ firstName;
 }
 else if(!String.IsBlank(firstName) && String.IsBlank(lastName)){
-    return lastName +', '+ firstName;
+    return ', '+ firstName;
 }
 else if(String.IsBlank(firstName) && !String.IsBlank(lastName)){
-    return lastName +', '+ firstName;
+    return lastName +', ';
 }
 else{
     return '';
