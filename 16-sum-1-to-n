@@ -1,5 +1,5 @@
 public Integer sumToN(Integer n) {
-    Integer num;
+    int num;
 
     for(Integer i = 1; i<= n ; i++){
        num = num + i;
