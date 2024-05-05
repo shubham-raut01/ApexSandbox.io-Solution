@@ -4,8 +4,8 @@ String[] parts = email.split("@");
     String username = parts[0];
     String[] nameParts = username.split("\\.");
     
-    String firstName = capitalize(nameParts[0]);
-    String lastName = capitalize(nameParts[1]);
+    String firstName = nameParts[0].capitalize();
+    String lastName = nameParts[1].capitalize();
         
     return firstName + ' ' + lastName;
 }
