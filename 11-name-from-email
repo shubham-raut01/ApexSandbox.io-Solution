@@ -1,5 +1,5 @@
 public String nameFromEmail(String email) {
- List<String> parts = email.split('@');
+ List<String> parts = email.toLowerCase().split('@');
     
     String username = parts[0];
     List<String> nameParts = username.split('\\.');
